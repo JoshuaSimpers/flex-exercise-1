@@ -9,8 +9,11 @@ File name: style.css
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  /*Tells the webpage to display the content using a flexbox*/
   display: flex;
+  /*aligns the items within the flexbox around the center of the flexbox vertically since the direction of the flexbox is along the row*/
   align-items: center;
+  /*aligns the content within the flexbox around the center of the flexbox horizontally since the direction of the flexbox is along the row*/
   justify-content: center;
 }
 
